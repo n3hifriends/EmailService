@@ -40,7 +40,7 @@ public class KafkaConsumerEmailClient {
             Authenticator auth = new Authenticator() {
                 //override the getPasswordAuthentication method
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication(emailDto.getFrom(), "rdukggxfbxvbvkfo");
+                    return new PasswordAuthentication(emailDto.getFrom(), "n3rdukggxfbxvbvkfo");
                 }
             };
             Session session = Session.getInstance(props, auth);
